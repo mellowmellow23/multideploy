@@ -1,0 +1,42 @@
+{
+  "project": "MyContract",
+  "script": "script/Deploy.s.sol",
+  "contract": "MyContract",
+  "chains": [
+    {
+      "name": "Sepolia",
+      "chain_id": 11155111,
+      "rpc_env": "SEPOLIA_RPC_URL",
+      "explorer_env": "ETHERSCAN_API_KEY",
+      "explorer_url": "https://api-sepolia.etherscan.io/api"
+    },
+    {
+      "name": "Base Sepolia",
+      "chain_id": 84532,
+      "rpc_env": "BASE_SEPOLIA_RPC_URL",
+      "explorer_env": "BASESCAN_API_KEY",
+      "explorer_url": "https://api-sepolia.basescan.org/api"
+    },
+    {
+      "name": "Arbitrum Sepolia",
+      "chain_id": 421614,
+      "rpc_env": "ARBITRUM_SEPOLIA_RPC_URL",
+      "explorer_env": "ARBISCAN_API_KEY",
+      "explorer_url": "https://api-sepolia.arbiscan.io/api"
+    },
+    {
+      "name": "Optimism Sepolia",
+      "chain_id": 11155420,
+      "rpc_env": "OPTIMISM_SEPOLIA_RPC_URL",
+      "explorer_env": "OPTIMISM_API_KEY",
+      "explorer_url": "https://api-sepolia-optimistic.etherscan.io/api"
+    },
+    {
+      "name": "Polygon Amoy",
+      "chain_id": 80002,
+      "rpc_env": "POLYGON_AMOY_RPC_URL",
+      "explorer_env": "POLYGONSCAN_API_KEY",
+      "explorer_url": "https://api-amoy.polygonscan.com/api"
+    }
+  ]
+}
